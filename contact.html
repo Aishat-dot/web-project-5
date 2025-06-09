@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pride</title>
+    <title>Project</title>
     <link rel="stylesheet" href="CSS/external.css">
     <style>
         body {
-            background-image: url(images/rainbow.jpg) no-repeat;
-            background-size: 100% auto;
-        }
-        main {
             background-color: #F9F6FD;
         }
-        h1 {
-            text-align: center;
-            font-size: 100px;
-            font-family: 'Antic', sans-serif;
+        form {
+            float: right;
+            width: 50%;
+            background-color: #4B2E83;
+            padding: 0px 5px 5px 5px;
+            color: white;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+           <a href="index.html">HOME</a>
+            <a href="flags.html">FLAGS</a>
+            <a href="history.html">HISTORY</a>
+            <a href="support.html">SUPPORT</a>
+            <a href="contact.html" class="active">CONTACT</a>
+        </nav>
+        <h1>CONTACT US</h1>
+    </header>
     <main>
-        <header>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="flags.html">FLAGS</a>
-                <a href="history.html">HISTORY</a>
-                <a href="support.html">SUPPORT</a>
-                <a href="contact.html" class="active">CONTACT</a>
-            </nav>
-            <h1>LGBTQ+</h1>
-        </header>
+        <h3>Questions or feedback?
+            <br/>
+            Reach out using the information below or fill out our contact form!
+        </h3>
+        <br/>
+        <form>
+            <fieldset>
+                <legend>Questions or Feedback</legend>
+                <label for="fname">First Name: </label>
+                <br/>
+                <input type="text" id="fname" name="fname">
+                <br/>
+                <label for="lname">Last Name: </label>
+                <br/>
+                <input type="text" id="lname" name="lname">
+                <br/>
+                <label for="email">Email: </label>
+                <br/>
+                <input type="text" id="email" name="email">
+                <br/>
+                <label for="questionsorfeedback">Questions or Feedback</label>
+                <br/>
+                <textarea id="questionsorfeedback" name="QuestionsorFeedback" rows="8" cols="50"></textarea>
+            </fieldset>
+        </form>
+        <br/>
+        <p>British Columbia: +1 604-933-8439</p>
+        <p>Manitoba: +1 584-367-9829</p>
+        <p>Email: contact@mbpride.com | questions@bcpride.com</p>
     </main>
+    <footer>
+        <p>&copy; LGBTQ+ human rights movement</p>
+    </footer>
 </body>
 </html>
