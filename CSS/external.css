@@ -33,6 +33,7 @@ nav a {
 }
 nav a:hover {
     background-color: #6B4FB4;
+    color: #4B2E83;
 }
 h1 {
     text-align: center;
