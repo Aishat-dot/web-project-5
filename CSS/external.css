@@ -26,7 +26,7 @@ nav a {
     color: #4B2E83;
     font-family: 'Gagalin', cursive;
     text-decoration: none;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     padding: 8px 12px;
     margin: 15px;
     border-radius: 12px;
@@ -42,16 +42,22 @@ h1 {
     color: white;
 }
 h2 {
-    font-size: 2.4rem;
-}
-h3 {
     font-size: 2rem;
 }
-p {
+h3 {
     font-size: 1.6rem;
+}
+p {
+    font-size: 1.4rem;
 }
 nav a img {
     width: 100px;
     height: auto;
-    transform: translate(-300px, 5px);
+    transform: translate(-480px, 5px);
+}
+footer {
+    border-top: 2px solid #4B2E83;
+}
+footer h4 {
+    color:gray;
 }
