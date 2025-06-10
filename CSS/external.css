@@ -33,6 +33,7 @@ nav a {
 }
 nav a:hover {
     background-color: #6B4FB4;
+    color: #4B2E83;
 }
 h1 {
     text-align: center;
@@ -42,13 +43,14 @@ h1 {
     color: white;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 p {
     font-size: 1.4rem;
+    text-indent: 50px;
 }
 nav a img {
     width: 100px;
