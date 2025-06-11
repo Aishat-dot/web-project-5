@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!--Links page to external CSS-->
     <link rel="stylesheet" href="CSS/external.css">
+    <!--CSS-->
     <style>
+        /*Gives background image. Sets background image width to 100% and height to auto*/
         header {
             background-image: url(images/cac.jpg);
             background-size: 100% auto;
         }
+        /*Gives body a background color of #F9F6FD*/
         body {
             background-color: #F9F6FD;
         }
+        /*Floats form right, sets width to 35%, background color to #4B2E83, gives top padding of 10px and the rest 15px, 
+        makes font colot white, and sets margin to 10px*/
         form {
             float: right;
             width: 35%;
@@ -24,49 +30,64 @@
     </style>
 </head>
 <body>
+    <!--Nav and heading 1-->
     <header>
         <nav>
+            <!--Inline css. background color of link set to #F6F9FD. Link is an image-->
             <a href="index.html" style="background-color: #F6F9FD;"><img src="images/Pride-Flags.jpg"></a>
             <a href="index.html">HOME</a>
             <a href="flags.html">FLAGS</a>
             <a href="history.html">HISTORY</a>
-            <a href="support.html">SUPPORT</a>
+            <a href="support.html">SUPPORT</a>    
+            <!--Link with class value of active-->
             <a href="contact.html" class="active">CONTACT</a>
         </nav>
         <h1>CONTACT US</h1>
         <br/>
     </header>
+    <!--Main content-->
     <main>
-        <h3>Questions or feedback?
-            <br/>
-            Reach out using the information below or fill out our contact form!
-        </h3>
+        <section>
+            <!--Form for questions or feedback-->
+            <form>
+                <!--Forms border around form-->
+                <fieldset>
+                    <!--Form title-->
+                    <legend><b>Questions or Feedback</b></legend>
+                    <!--Label value shows on page-->
+                    <label for="fname">First Name: </label>
+                    <br/>
+                    <!--Input box-->
+                    <input type="text" id="fname" name="fname">
+                    <br/>
+                    <label for="lname">Last Name: </label>
+                    <br/>
+                    <input type="text" id="lname" name="lname">
+                    <br/>
+                    <label for="email">Email: </label>
+                    <br/>
+                    <input type="text" id="email" name="email">
+                    <br/>
+                    <label for="questionsorfeedback">Questions or Feedback</label>
+                    <br/>
+                    <textarea id="questionsorfeedback" name="QuestionsorFeedback" rows="8" cols="50"></textarea>
+                </fieldset>
+            </form>
+        </section>
         <br/>
-        <form>
-            <fieldset>
-                <legend><b>Questions or Feedback</b></legend>
-                <label for="fname">First Name: </label>
+        <section>
+            <!--Introduction-->
+            <h3>Questions or feedback?
                 <br/>
-                <input type="text" id="fname" name="fname">
-                <br/>
-                <label for="lname">Last Name: </label>
-                <br/>
-                <input type="text" id="lname" name="lname">
-                <br/>
-                <label for="email">Email: </label>
-                <br/>
-                <input type="text" id="email" name="email">
-                <br/>
-                <label for="questionsorfeedback">Questions or Feedback</label>
-                <br/>
-                <textarea id="questionsorfeedback" name="QuestionsorFeedback" rows="8" cols="50"></textarea>
-            </fieldset>
-        </form>
-        <br/>
-        <p>British Columbia: +1 604-933-8439</p>
-        <p>Manitoba: +1 584-367-9829</p>
-        <p>Email: contact@mbpride.com | questions@bcpride.com</p>
+                Reach out using the information below or fill out our contact form!
+            </h3>
+            <!--Contact Information-->
+            <p>British Columbia: +1 604-933-8439</p>
+            <p>Manitoba: +1 584-367-9829</p>
+            <p>Email: contact@mbpride.com <b>OR</b> questions@bcpride.com</p>
+        </section>
     </main>
+    <!--Links and copyright-->
     <footer>
         <p>&copy; LGBTQ+ human rights movement</p>
     </footer>

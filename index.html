@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!--Connecting to external CSS-->
     <link rel="stylesheet" href="CSS/external.css">
+    <!--CSS-->
     <style>
+        /*Sets background image to value below, background size to 100% for width and auto for height*/
         header {
             background-image: url("images/rbow.jfif");
             background-size: 100% auto;
         }
+        /*Floats image in figure tags right, sets widh too 35%, gives a margin of 15px, and a 1px solid black border*/
         figure img {
             float: right;
             width: 35%;
             margin: 15px;
             border: 1px solid black;
         }
+        /*Translates image in figure tag with an id of figure1 down 205px*/
         #figure1 {
             transform: translate(0px, 205px);
         }
+        /*Translates image in figure tag with an id of figure2 down 345px*/
         #figure2 {
             transform: translate(0px, 345px);
         }
+        /*Removes text decoration for unordered list of links, and sets font color to #4B2E83*/ 
         ul li a {
             text-decoration: none;
             color: #4B2E83;
         }
+        /*Sets section width to 50%*/
         section {
             width: 50%;
         }
+        /*Sets table width to 100%, gives a top margin of 20px, and sets border spacing to 10px*/
         table {
             width: 100%;
             margin-top: 20px;
             border-spacing: 10px;
         }
+        /*Gives table data 10px padding, background color of #e5dbf7, and 8px border radius*/
         td {
             padding: 10px;
             background-color: #e5dbf7;
@@ -42,24 +52,34 @@
     </style>
 </head>
 <body>
+    <!--Nav and heading 1-->
     <header>
+        <!--Navigation bar-->
         <nav>
+            <!--Inline css. background color of link set to #F6F9FD. Link is an image-->
+            <a href="index.html" style="background-color: #F6F9FD;"><img src="images/Pride-Flags.jpg"></a>
+            <!--Link given class with value of active-->
             <a href="index.html" class="active">HOME </a>
             <a href="flags.html">FLAGS </a>
             <a href="history.html">HISTORY</a>
             <a href="support.html">SUPPORT</a>
             <a href="contact.html">CONTACT</a>
         </nav>
+        <!--Heading 1-->
         <h1>2SLGBTQIA+</h1>
+        <!--Break-->
         <br/>
     </header>
+    <!--Main content-->
     <main>
+        <!--Figure tag given id of figure1-->
         <figure id="figure1">
             <img src="images/ppl.jfif" alt="Pink woman blending into blue man to symbolize the gender spectrum.">
         </figure>
-        <hr>
+        <!--Section about what each letter of 2SLGBTQIA+ represents-->
         <section>
             <h2>What each letter represents</h2>
+            <!--Table showing letters and what they represent. (No table headings)-->
             <table>
                 <tr>
                     <td><b>2S</b></td>
@@ -99,13 +119,16 @@
                 </tr>
             </table>
         </section>
+        <!--Topic change-->
         <hr>
         <figure id="figure2">
             <img src="images/Pride-Flags.jpg" alt="image of rainbow flag, trans flag, pansexual flag, progress pride flag, bisexual flag, non-binary flag, asexual flag, lesbian flag, and intersex flag in a 3 by 3 grid">
         </figure>
         <br/>
+        <!--Section explaining what each color of the progress pride flag means-->
         <section>
             <h2>Progress Pride Flag</h2>
+            <!--Table showing meanings of colors-->
             <table>
                 <tr>
                     <td>Yellow</td>
@@ -162,12 +185,16 @@
             </table>
         </section>
     </main>
+    <!--Footer containing links and copyright-->
     <footer>
         <h4>Citations</h4>
+        <!--Removes bullets from side of list-->
         <ul type="none">
-            <li><a href="https://usw.ca/resources/2slgbtqia-glossary-list-of-definitions/">2slgbtqia glossary list of definitions.</a></li>
-            <li><a href="https://www.verywellmind.com/what-the-colors-of-the-new-pride-flag-mean-5189173">Colors of the Pride flag meanings.</a></li>
+            <!--Links to sources-->
+            <li><a href="https://usw.ca/resources/2slgbtqia-glossary-list-of-definitions/">Link to 2slgbtqia glossary list of definitions</a></li>
+            <li><a href="https://www.verywellmind.com/what-the-colors-of-the-new-pride-flag-mean-5189173">Link to Colors of the Pride flag meanings</a></li>
         </ul>
+        <!--Copyright-->
     </footer>
 </body>
 </html>
