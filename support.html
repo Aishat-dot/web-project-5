@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!--Links page to external CSS-->
     <link rel="stylesheet" href="CSS/external.css">
+    <!--CSS-->
     <style>
+        /*Gives a background image. Makes the width 100% and the height auto*/
         header {
             background-image: url(images/support.jpg);
             background-size: 100% auto;
         }
+        /*Makes table width 100%, top margin 20px, and border spacing 10px*/
         table {
             width: 100%;
             margin-top: 20px;
             border-spacing: 10px;
         }
+        /*Table heading padding is 10px, background color is #e5dbf7, and broder radius is 8px*/
         table th {
             padding: 10px;
             background-color: #e5dbf7;
             border-radius: 8px;
         }
+        /*Table data padding is 10px, background color is #e5dbf7, and border radius is 8px*/
         table td {
             padding: 10px;
             background-color: #e5dbf7;
@@ -28,12 +34,15 @@
     </style>
 </head>
 <body>
+    <!--Nav and heading 1-->
     <header>
         <nav>
+            <!--Inline css. background color of link set to #F6F9FD. Link is an image-->
             <a href="index.html" style="background-color: #F6F9FD;"><img src="images/Pride-Flags.jpg"></a>
             <a href="index.html">HOME</a>
             <a href="flags.html">FLAGS</a>
-            <a href="history.html">HISTORY</a>
+            <a href="history.html">HISTORY</a>    
+            <!--Link with class value of active-->
             <a href="support.html" class="active">SUPPORT</a>
             <a href="contact.html">CONTACT</a>
         </nav>
@@ -42,16 +51,22 @@
         <br/>
         <hr>
     </header>
+    <!--Main content-->
     <main>
-        <h2>Discrimination is real</h2>
-        <p>Being apart of the LGBTQ+ community is amazing but it also means that you will most likely encounter discrimination because of your sexuality, gender, and/or identity. If not you, then maybe your friends, your family. Here is how you can support them, whether they need it, or just because you want to.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/27yaTsX5OHA?si=p_WFXz8EVJ9vWBg6" title="Understanding LGBTQ+ discrimination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!--Section explaining lgbtq+ discrimination-->
+        <section>
+            <h2>Discrimination is real</h2>
+            <p>Being apart of the LGBTQ+ community is amazing but it also means that you will most likely encounter discrimination because of your sexuality, gender, and/or identity. If not you, then maybe your friends, your family. Here is how you can support them, whether they need it, or just because you want to.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/27yaTsX5OHA?si=p_WFXz8EVJ9vWBg6" title="Understanding LGBTQ+ discrimination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!--Section showing a list of dates for special Lgbtq+ events/holidays-->
         <section>
             <p>Here is a list of dates special events like Pride Month, Lesbian Visibilty Day/Week, etc.</p>
                 <table>
                 <tr>
                     <th>January</th>
                     <td><b> 27 -</b> International Holocaust Remembrance Day</td>
+                    <!--Empty spaces to create full table-->
                     <td></td>
                     <td></td>
                     <td></td>

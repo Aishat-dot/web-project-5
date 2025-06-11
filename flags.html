@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!--Connecting to external CSS-->
     <link rel="stylesheet" href="CSS/external.css">
+    <!--CSS-->
     <style>
+        /*Header background image set to value below, background width set to 100% and height set to auto*/
         header {
             background-image: url(images/prideflags.webp);
             background-size: 100% auto;
         }
+        /*Floats images right, makes width 15%, and gives all around margin of 5px*/
         img {
             float: right;
             width: 15%;
@@ -18,10 +22,14 @@
     </style>
 </head>
 <body>
+    <!--Nav and heading 1-->
     <header>
+        <!--Nav bar-->
         <nav>
+            <!--Inline css. background color of link set to #F6F9FD. Link is an image-->
             <a href="index.html" style="background-color: #F6F9FD;"><img src="images/Pride-Flags.jpg"></a>
             <a href="index.html">HOME</a>
+            <!--Link with class value of active-->
             <a href="flags.html" class="active">FLAGS</a>
             <a href="history.html">HISTORY</a>
             <a href="support.html">SUPPORT</a>
@@ -30,8 +38,11 @@
         <h1>FLAGS</h1>
         <br/>
     </header>
+    <!--Main content-->
     <main>
+        <!--Section containing information about different pride flags-->
         <section>
+            <!--Image of flag, followed by name of flag, follwed by meaning of flag/flag colors, follwed by breaks to create space for images-->
             <img src="images/sflag.png" alt="black and white striped flag">
             <h3>Heterosexual Flag</h3>
             <p>A flag composed of alternating black and white stripes, with a similar design to the rainbow LGBTQ+ pride flag, was created to represent straight pride.</p>
@@ -85,13 +96,17 @@
             <p> Neither color is associated with the social constructs of the gender binary. The circle, perfect and unbroken, represents the wholeness of intersex people.</p>
         </section>
     </main>
+    <!--Footer containing links and copyright-->
     <footer>
         <h4>Citations</h4>
+        <!--Removes bullets from list items-->
         <ul type="none">
+            <!--Links to sources-->
             <li><a href="https://thedaily.case.edu/waving-proudly-learn-the-meanings-behind-lgbt-flags/">Link to source for meaning behind flag colors</a></li>
             <li><a href="https://www.volvogroup.com/en/news-and-media/news/2021/jun/lgbtq-pride-flags-and-what-they-stand-for.html">Link to source for meaning behind flag colors</a> </li>
             <li><a href="https://flags.fandom.com/wiki/Straight_flag">Link to source for meaning behind straight flag</a></li>
         </ul>
+        <!--Copyright-->
     </footer>
 </body>
 </html>
