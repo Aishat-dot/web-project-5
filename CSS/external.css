@@ -1,18 +1,25 @@
+/*Gives body margin and padding width a value of 0 and height of auto*/
 body {
     margin: 0 auto;
+    padding: 0 auto;
 }
+/*Gives main conent a background color of #F9F6FD, a top and bottom padding of 20px, and a left and right padding of 40px*/
 main {
     background-color: #F9F6FD;
     padding: 20px 40px;
 }
+/*Gives footer 20px padding, and a background color of #F9F6FD*/
 footer {
     padding: 20px;
     background-color: #F9F6FD;
 }
+/*GIves background color of #371C63, and font color of #F9F6FD to elements with class value as active*/
 .active {
     background-color: #371C63;
     color: #F9F6FD;
 }
+/*Gives nav background color of #F9F6FD, displays as flex, direction is row, non-wrapping, content set to the end of the bar, items centered,
+    20px padding, and 1px solid border with #A18CD1 as border color.*/
 nav {
     background-color: #F9F6FD;
     display: flex;
@@ -22,19 +29,23 @@ nav {
     border: 1px solid #A18CD1;
     padding: 20px;
 }
+/*Gives nav links font color of #4B2E83, font-family cursive/sans-serif, no text decoration, font size is 2.2rem, top and bottom padding is 8px,
+left and right padding is 12px, 15px margin, and 12px border radius*/
 nav a {
     color: #4B2E83;
-    font-family: 'Gagalin', cursive;
+    font-family: 'Gagalin', cursive, sans-serif;
     text-decoration: none;
     font-size: 2.2rem;
     padding: 8px 12px;
     margin: 15px;
     border-radius: 12px;
 }
+/*Makes link background color #6B4FB4, and font color #4B2E83 when hovered over*/
 nav a:hover {
     background-color: #6B4FB4;
     color: #4B2E83;
 }
+/*Aligns h1 text to center, sets font size to 8rem, font family is sans-serif, black text shadow slight blur, font color is white*/
 h1 {
     text-align: center;
     font-size: 8rem;
@@ -42,24 +53,24 @@ h1 {
     text-shadow: 2px 2px 4px black;
     color: white;
 }
+/*Sets h2 font size 2.2rem*/
 h2 {
     font-size: 2.2rem;
 }
+/*Sets h3 font size to 1.8rem*/
 h3 {
     font-size: 1.8rem;
 }
+/*Sets paragraph font size to 1.4rem, and gives text indent of 50px*/
 p {
     font-size: 1.4rem;
     text-indent: 50px;
 }
-nav a img {
-    width: 100px;
-    height: auto;
-    transform: translate(-480px, 5px);
-}
+/*Gives footer 2px solid top border. Color is #4B2E83*/
 footer {
     border-top: 2px solid #4B2E83;
 }
+/*Makes footer heading font color gray*/
 footer h4 {
     color:gray;
 }
