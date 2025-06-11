@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!--Links page to external CSS-->
     <link rel="stylesheet" href="CSS/external.css">
+    <!--CSS-->
     <style>
+        /*Gives background image. Sets background image width to 100% and height to auto*/
         header {
             background-image: url(images/cac.jpg);
             background-size: 100% auto;
         }
+        /*Gives body a background color of #F9F6FD*/
         body {
             background-color: #F9F6FD;
         }
+        /*Floats form right, sets width to 35%, background color to #4B2E83, gives top padding of 10px and the rest 15px, 
+        makes font colot white, and sets margin to 10px*/
         form {
             float: right;
             width: 35%;
@@ -39,35 +45,49 @@
         <h1>CONTACT US</h1>
         <br/>
     </header>
-    <main><form>
-            <fieldset>
-                <legend><b>Questions or Feedback</b></legend>
-                <label for="fname">First Name: </label>
-                <br/>
-                <input type="text" id="fname" name="fname">
-                <br/>
-                <label for="lname">Last Name: </label>
-                <br/>
-                <input type="text" id="lname" name="lname">
-                <br/>
-                <label for="email">Email: </label>
-                <br/>
-                <input type="text" id="email" name="email">
-                <br/>
-                <label for="questionsorfeedback">Questions or Feedback</label>
-                <br/>
-                <textarea id="questionsorfeedback" name="QuestionsorFeedback" rows="8" cols="50"></textarea>
-            </fieldset>
-        </form>
+    <!--Main content-->
+    <main>
+        <section>
+            <!--Form for questions or feedback-->
+            <form>
+                <!--Forms border around form-->
+                <fieldset>
+                    <!--Form title-->
+                    <legend><b>Questions or Feedback</b></legend>
+                    <!--Label value shows on page-->
+                    <label for="fname">First Name: </label>
+                    <br/>
+                    <!--Input box-->
+                    <input type="text" id="fname" name="fname">
+                    <br/>
+                    <label for="lname">Last Name: </label>
+                    <br/>
+                    <input type="text" id="lname" name="lname">
+                    <br/>
+                    <label for="email">Email: </label>
+                    <br/>
+                    <input type="text" id="email" name="email">
+                    <br/>
+                    <label for="questionsorfeedback">Questions or Feedback</label>
+                    <br/>
+                    <textarea id="questionsorfeedback" name="QuestionsorFeedback" rows="8" cols="50"></textarea>
+                </fieldset>
+            </form>
+        </section>
         <br/>
-        <h3>Questions or feedback?
-            <br/>
-            Reach out using the information below or fill out our contact form!
-        </h3>
-        <p>British Columbia: +1 604-933-8439</p>
-        <p>Manitoba: +1 584-367-9829</p>
-        <p>Email: contact@mbpride.com <b>OR</b> questions@bcpride.com</p>
+        <section>
+            <!--Introduction-->
+            <h3>Questions or feedback?
+                <br/>
+                Reach out using the information below or fill out our contact form!
+            </h3>
+            <!--Contact Information-->
+            <p>British Columbia: +1 604-933-8439</p>
+            <p>Manitoba: +1 584-367-9829</p>
+            <p>Email: contact@mbpride.com <b>OR</b> questions@bcpride.com</p>
+        </section>
     </main>
+    <!--Links and copyright-->
     <footer>
         <p>&copy; LGBTQ+ human rights movement</p>
     </footer>
