@@ -20,6 +20,9 @@ footer section {
     text-align: center;
     text-decoration: none;
 }
+footer a {
+    text-decoration: none;
+}
 /*Makes footer heading font color gray*/
 footer h4 {
     color:gray;
