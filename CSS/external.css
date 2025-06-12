@@ -87,10 +87,12 @@ p {
     font-size: 1.4rem;
     text-indent: 50px;
 }
+/*top margin is 20px, 10px border spacing*/
 table {
     margin-top: 20px;
     border-spacing: 10px;
 }
+/*td padding is 10px, background color is #e5dbf7, border radius is 8px, font size is 1.4rem, text aligned to center*/
 td {
     padding: 10px;
     background-color: #e5dbf7;
@@ -98,9 +100,7 @@ td {
     font-size: 1.4rem;
     text-align: center;
 }
-.infotable tr td img {
-    width: 95%;
-}
+/*5% padding, background color #e5dbf7, border radius is 8px, font sizeis 1.4rem*/
 th {
     padding: 5%;
     background-color: #e5dbf7;
