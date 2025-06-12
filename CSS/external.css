@@ -98,7 +98,7 @@ td {
     font-size: 1.4rem;
     text-align: center;
 }
-#ftable tr td img {
+.infotable tr td img {
     width: 95%;
 }
 th {
