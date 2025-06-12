@@ -85,22 +85,21 @@ p {
     text-indent: 50px;
 }
 table {
-width: 100%;
-margin-top: 20px;
-border-spacing: 10px;
+    margin-top: 20px;
+    border-spacing: 10px;
 }
 td {
-padding: 10px;
-background-color: #e5dbf7;
-border-radius: 8px;
-font-size: 1.4rem;
+    padding: 10px;
+    background-color: #e5dbf7;
+    border-radius: 8px;
+    font-size: 1.4rem;
 }
 td img {
     width: 18%;
 }
 th {
-padding: 10%;
-background-color: #e5dbf7;
-border-radius: 8px;
-font-size: 1.4rem;
+    padding: 10%;
+    background-color: #e5dbf7;
+    border-radius: 8px;
+    font-size: 1.4rem;
 }
