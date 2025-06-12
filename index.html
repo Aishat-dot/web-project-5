@@ -35,19 +35,10 @@
         }
         /*Sets section width to 50%*/
         section {
-            width: 50%;
+            width: 60%;
         }
-        /*Sets table width to 100%, gives a top margin of 20px, and sets border spacing to 10px*/
-        table {
-            width: 100%;
-            margin-top: 20px;
-            border-spacing: 10px;
-        }
-        /*Gives table data 10px padding, background color of #e5dbf7, and 8px border radius*/
-        td {
-            padding: 10px;
-            background-color: #e5dbf7;
-            border-radius: 8px;
+        table th {
+            padding: 0;
         }
     </style>
 </head>
@@ -76,11 +67,11 @@
         </figure>
         <!--Section about what each letter of 2SLGBTQIA+ represents-->
         <section>
-            <h2>What each letter represents</h2>
-            <!--Table showing letters and what they represent. (No table headings)-->
+            <!--Table showing letters and what they represent.-->
             <table>
                 <tr>
-                    <th></th>
+                    <th>Symbol</th>
+                    <th>Meaning</th>
                 </tr>
                 <tr>
                     <td><b>2S</b></td>
@@ -131,6 +122,10 @@
             <h2>Progress Pride Flag</h2>
             <!--Table showing meanings of colors-->
             <table>
+                <tr>
+                    <th>Color</th>
+                    <th>What it represents</th>
+                </tr>
                 <tr>
                     <td>Yellow</td>
                     <td>Represents non-binary, unassigned or undefined gender.</td>
@@ -188,14 +183,18 @@
     </main>
     <!--Footer containing links and copyright-->
     <footer>
-        <h4>Citations</h4>
+        <section>
+            <h4>Citations</h4>
             <!--Links to sources and socials-->
             <a href="https://usw.ca/resources/2slgbtqia-glossary-list-of-definitions/">Link to 2slgbtqia glossary list of definitions</a>
+            <br/>
             <a href="https://www.verywellmind.com/what-the-colors-of-the-new-pride-flag-mean-5189173">Link to Colors of the Pride flag meanings</a>
+            <br/>
             <a href="https://www.facebook.com/"><img src="images/facebook.png"></a>
             <a href="https://www.instagram.com/lgbtq_rights_are_human_rights/"><img src="images/Instagram.png"></a>
-        <!--Copyright-->
-        <p>&copy; LGBTQ+ Human Rights</p>
+            <!--Copyright-->
+            <p>&copy; LGBTQ+ Human Rights</p>
+        </section>
     </footer>
 </body>
 </html>

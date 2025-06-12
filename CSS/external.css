@@ -7,11 +7,29 @@ body {
 main {
     background-color: #F9F6FD;
     padding: 20px 40px;
-}
-/*Gives footer 20px padding, and a background color of #F9F6FD*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}/*Gives footer 2px solid top border. Color is #4B2E83. Makes background color white. Gives footer 20px padding*/
 footer {
     padding: 20px;
-    background-color: #F9F6FD;
+    border-top: 2px solid #4B2E83;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*aligns footer text to center, and removes text decoration*/
+footer section {
+    text-align: center;
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+}
+/*Makes footer heading font color gray*/
+footer h4 {
+    color:gray;
+}
+/*makes footer image width 40px*/
+footer img {
+    width: 40px;
 }
 /*GIves background color of #371C63, and font color of #F9F6FD to elements with class value as active*/
 .active {
@@ -29,11 +47,11 @@ nav {
     border: 1px solid #A18CD1;
     padding: 20px;
 }
-/*Gives nav links font color of #4B2E83, font-family cursive/sans-serif, no text decoration, font size is 2.2rem, top and bottom padding is 8px,
+/*Gives nav links font color of #4B2E83, font-family cursive, no text decoration, font size is 2.2rem, top and bottom padding is 8px,
 left and right padding is 12px, 15px margin, and 12px border radius*/
 nav a {
     color: #4B2E83;
-    font-family: 'Gagalin', cursive, sans-serif;
+    font-family: 'Gagalin', cursive;
     text-decoration: none;
     font-size: 2.2rem;
     padding: 8px 12px;
@@ -66,21 +84,23 @@ p {
     font-size: 1.4rem;
     text-indent: 50px;
 }
-/*Gives footer 2px solid top border. Color is #4B2E83. Makes background color white*/
-footer {
-    border-top: 2px solid #4B2E83;
-    background-color: white;
+table {
+    margin-top: 20px;
+    border-spacing: 10px;
 }
-/*aligns footer text to center, and removes text decoration*/
-footer section {
+td {
+    padding: 10px;
+    background-color: #e5dbf7;
+    border-radius: 8px;
+    font-size: 1.4rem;
     text-align: center;
-    text-decoration: none;
 }
-/*Makes footer heading font color gray*/
-footer h4 {
-    color:gray;
+td img {
+    width: 95%;
 }
-/*makes footer image width 40px*/
-footer img {
-    width: 40px;
+th {
+    padding: 5%;
+    background-color: #e5dbf7;
+    border-radius: 8px;
+    font-size: 1.4rem;
 }
